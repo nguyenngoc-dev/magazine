@@ -1,0 +1,70 @@
+.carousel-inner img {
+    width: 110%;
+    height: 100%;
+    transition:all 0.3s ease-out;
+    margin-bottom: 10px;
+    
+  }
+  .background-slide{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+background: linear-gradient(0deg, rgba(1,1,1,0.981127485173757) 8%, rgba(255,255,255,0) 100%);
+  }
+  .carousel-inner:hover .translate{
+    transform:translatex(-20px);
+  }
+  h3{
+    position:absolute;
+    bottom:8%;
+    left:0;
+    color:white;
+  }
+
+  h5{
+     position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0; 
+  }
+  .stick{
+    margin-top:0;
+    color:white;
+    font-size:14px;
+    background-color:#aabdc4;
+    padding:6px 8px 8px 8px
+    ;
+  }
+  .stick:hover{
+    background-color:#3d7071;
+  }
+  .img {
+background-image:url(http://d169hzb81ub7u3.cloudfront.net/magazine/wp-content/uploads/sites/17/2015/01/blog-17.jpg);
+background-position:center;
+background-size:120%;
+width:100%;
+height:50%;
+position: relative;
+transition:all 0.3s ease-out;
+background-repeat: no-repeat;
+margin-bottom:5px;
+}
+.img:hover{
+  background-size:130%;
+}
+.img2{
+  background-image:url(http://d169hzb81ub7u3.cloudfront.net/magazine/wp-content/uploads/sites/17/2015/01/kaboompics.com_Hand-using-stylus-pen-for-touching-the-digital-tablet-screen.jpg);
+  background-position:center;
+  background-size:100%;
+  width:100%;
+  height:50%;
+  position:relative;
+  background-repeat: no-repeat;
+
+  transition:all 0.3s ease-out;
+}
+.img2:hover{
+  background-size:120%;
+}

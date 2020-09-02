@@ -1,0 +1,48 @@
+.img-hidden{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    height:264px;
+    
+    margin-bottom:20px !important;
+   
+    
+   }
+   .img-hidden img{
+     height:110%;
+     width:100%;
+      transition:all 0.3s ease-out;
+     
+   }
+   .img-hidden .content{
+     
+     width:100%;
+     height:20%;
+     color:white;
+     padding:2% 5%;
+     position:absolute;
+     bottom:0;
+     font-size:12px;
+     background-color:rgba(0,0,0,0.6);
+     transition:all 0.3s ease-out;
+   }
+   .img-hidden:hover .content{
+     height:50%;
+   }
+   .img-hidden:hover img{
+     transform:translatey(-20px);
+     
+   }
+   .next{
+    width:100%;
+    height:140px;
+    background-image:url(http://d169hzb81ub7u3.cloudfront.net/magazine/wp-content/uploads/sites/17/2015/01/add-01.jpg);
+    background-position:center;
+    background-size:100%;
+    transition:all 0.3s ease-out;
+    margin:5% 0;
+    
+  }
+  .next:hover{
+    background-size:110%;
+  }
